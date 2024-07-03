@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+                <h1>This is a heading  tag</h1>
+ <h1>This is a heading  tag</h1>
+    <h1>This is a heading  tag</h1>
+   
+    <h1>This is a heading  tag</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis omnis earum, totam quibusdam quidem vero sed perferendis at sequi cupiditate! </p>
+    
+
+  #include<stdio.h>
+    #include<math.h>
+    #include<conio.h>
+    void main()
+    {
+    float d,l,A,E,P,S;
+    clrscr();
+    printf("Enter the value of lenth(m) of the beam:\n");
+    scanf("%f",&l);
+    printf("Enter the value of diameter(m) of the beam:\n");
+    scanf("%f",&d);
+    printf("Enter the value of strenth(N/m2) of the beam:\n");
+    scanf("%f",&S);
+    printf("Enter the value of E(N/m2) of the beam:\n");
+    scanf("%f",&E);
+    A=(3.1416*pow(d,2))/4;
+    P=S*A;
+    E=(P*l)/(A*E);
+    printf("The load carring capacity of an axially loaded bar is:\n%.3fN\nThe deflection of the bar is:\n%.3fm",P,E);
+    getch();
+    }
+    
+</body>
+</html>
+

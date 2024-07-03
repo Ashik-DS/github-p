@@ -2,3 +2,8 @@ Hello world!!!
 This is ashik 
 Now I am learning to git and github 
 this is simple folder where i push some lint about my present situation 
+what is the process to push any fill in the github?
+solve=
+frist git add this folder
+next git commit -m " mening full name or comment"
+and the last = git push -u 
