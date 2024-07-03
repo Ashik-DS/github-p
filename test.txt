@@ -1,0 +1,4 @@
+Hello world!!!
+This is ashik 
+Now I am learning to git and github 
+this is simple folder where i push some lint about my present situation 
